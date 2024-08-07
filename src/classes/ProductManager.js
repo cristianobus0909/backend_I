@@ -1,4 +1,3 @@
-
 import * as fs from 'fs';
 
 
@@ -29,7 +28,7 @@ class ProductManager  {
                 return;
             };
             
-            if (productsFromFile.some((product) => product.code === code.trim())) {
+            if (productsFromFile.some((product) => product.code === code)) {
                 console.log(`El producto con código ${code} ya existe.`);
                 return;
             };
@@ -128,6 +127,3 @@ class ProductManager  {
 const productManager = new ProductManager('./src/products.json')
 
 export default productManager;
-
-
-
