@@ -22,5 +22,17 @@
     "status": true,
     "stock": 15,
     "quantity": 1
+  },
+  {
+    "id": "lzr1wk5d",
+    "title": "Celular Samsung Desbloqueado",
+    "description": "Samsung galaxy desbloqueado",
+    "price": "300",
+    "category": "Celulares",
+    "thumbnails": "https://www.cronista.com/files/image/636/636019/6488a26aac446.webp?oe=jpg",
+    "code": true,
+    "status": "10",
+    "stock": "123455465",
+    "quantity": 1
   }
 ]

@@ -33,7 +33,7 @@ class ProductManager  {
                 return;
             };
             
-            const existingProduct = this.products.find((product) => product.code === code.trim());
+            const existingProduct = this.products.find((product) => product.code === code);
             if (existingProduct) {
                 existingProduct.quantity++;
                 console.log(`El producto con el código ${code} ahora tiene ${existingProduct.quantity} unidades.`);
